@@ -11,7 +11,7 @@ function getPosLeft( i , j ){
     return 20 + j*120;
 }
 
-//用awitch获取不同数字的背景颜色
+//用switch获取不同数字的背景颜色
 function getNumberBackgroundColor( number ){
 	switch( number ){
 		case 2:return "#eee4da";break;
